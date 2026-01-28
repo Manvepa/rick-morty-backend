@@ -19,7 +19,6 @@ services:
     container_name: rick-morty-mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: rickmortydb
     ports:
       - "3306:3306"
