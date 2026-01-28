@@ -36,11 +36,6 @@ cd rick-morty-backend-dotnet
 docker-compose down -v
 docker-compose up --build
 
-# Rick & Morty Backend API
-
-Backend desarrollado en **ASP .NET Core** que expone una API REST para consultar personajes de Rick & Morty.  
-La aplicación utiliza **MySQL** para persistencia de datos y se ejecuta completamente en **Docker** para garantizar consistencia de entorno.
-
 ---
 
 ##  Arquitectura General
