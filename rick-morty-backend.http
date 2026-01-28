@@ -1,0 +1,6 @@
+@rick_morty_backend_HostAddress = http://localhost:5050
+
+GET {{rick_morty_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
